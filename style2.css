@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    position: relative;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-text span {
+    color: #ffc107;
+}
+
+.about-text p {
+    font-size: 1.2em;
+}
+
+.personal-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    flex: 1 1 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
